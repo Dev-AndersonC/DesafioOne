@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e codificador</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile.css">
+</head>
+<body>
+     <main class="main container">
+         <header class="cabecalho">
+           <img src="img/Alogo.png" alt="logo Alura">
+           <h1>Mensagens Codificadas</h1>
+         </header>
+         <div class="container-input">
+         <div class="input">
+            <textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+            <p>ATENÇÃO: Apenas letras maiusculas e sem acento!</p>
+        </div>
+
+
+         <div id="output">
+            <img src="img/img-two.png" alt="logo Alura" height="100px" width="100px">
+            <h2>Sua mensagem aparecerá aqui!</h2>
+            <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+         </div>
+        </div>
+
+        
+         <div class="buttons">
+             <div class="container-bnt">
+                <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+             </div>
+            
+         </div>
+     </main>
+
+     <footer class="rodape">
+        <h3><a href="https://github.com/Dev-AndersonC">Desenvolvido por Anderson</a></h3>
+     </footer>
+
+     <script src="src/app.js"></script>
+</body>
+</html>
